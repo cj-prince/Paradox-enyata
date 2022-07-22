@@ -181,13 +181,12 @@ nav{
   margin-bottom: 60px;
 }
 
-.portfoloi-img{
+/* .portfoloi-img{
   margin-right: -20px;
-}
+} */
 
 .portfoloi-img img{
   width: 374.41px;
-  /* height: 464.05px; */
 }
 
 .portfolio button{
@@ -379,14 +378,18 @@ footer{
   }
 
   .nav nav{
-    padding: 20px 5px;
+    padding: 20px 14px;
+  }
+
+  .nav-img{
+    width: 30%;
   }
 
   .nav-text{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 17px;
-    width: auto;
+    width: 100%;
   }
 
   .service{
@@ -400,11 +403,13 @@ footer{
     /* padding: 20px 10px; */
   }
   .services{
-    padding: 20px 10px;
+    padding: 20px 45px;
   }
 
   .service-article article{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   .service-article article img{
@@ -413,7 +418,7 @@ footer{
 
   .article-text{
     margin-top: -5px;
-    width: 164px;
+    width: 50%;
   }
 
   .article-text h6{
@@ -429,13 +434,13 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    /* margin: 0; */
   }
-
-  .portfoloi-img img{
-   
+  .portfoloi-img img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 374.41px;
   }
-
   .team{
     padding: 20px 0;
   }
@@ -461,20 +466,29 @@ footer{
   }
 
   .curve img{
-    width: 410px;
+    width: 100%;
+  }
+
+  .work{
+    padding: 20px 4px;
+  }
+  .work-text p {
+    font-size: 14px;
   }
 
   .paradox{
     display: flex;
-    gap: 130px;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .p-article{
     display: grid;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px
   }
   footer{
-    padding: 20px 10px;
+    padding: 20px 5px;
   }
   .last{
     display: grid;
@@ -482,5 +496,6 @@ footer{
 
   .last p{
     margin-bottom: 12px;
+    font-size: 13px;
   }
 }
